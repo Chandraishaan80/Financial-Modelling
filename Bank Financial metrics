@@ -1,8 +1,0 @@
- SELECT
-  MAX(CASE WHEN name = 'Total Assets' THEN value / 1000 END) AS total_assets_bil,
-  MAX(CASE WHEN name = 'Total Loans and Leases' THEN value / 1000 END) AS total_loans_bil,
-  MAX(CASE WHEN name = 'Total Equity Capital' THEN value / 1000 END) AS equity_capital_bil,
-  MAX(CASE WHEN name = 'Commercial and Industrial Loans' THEN value / 1000 END) AS commercial_loans_bil,
-  MAX(CASE WHEN name = '1-4 Family Residential Mortgages' THEN value / 1000 END) AS residential_mortgages_bil,
-  MAX(CASE WHEN name = 'Nonfarm Nonresidential' THEN value / 1000 END) AS nonresidential_loans_bil
-FROM `my-project-2-463200.financial_modeling.bank_financials_q1_2025`;
