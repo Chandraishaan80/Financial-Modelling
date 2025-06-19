@@ -1,0 +1,11 @@
+SELECT
+  name,
+  value,
+  `Year Ago from Period` AS year_ago,
+  (value - `Year Ago from Period`) / `Year Ago from Period` * 100 AS yoy_growth_pct
+FROM `my-project-2-463200.financial_modeling.bank_financials_q1_2025`
+WHERE name IN (
+  'Total Assets',
+  'Total Equity Capital',
+  'Total Loans and Leases'
+);

@@ -1,0 +1,13 @@
+SELECT
+  name AS loan_category,
+  value / 1000 AS value_in_billions
+FROM `my-project-2-463200.financial_modeling.bank_financials_q1_2025`
+WHERE name IN (
+  '1-4 Family Residential Mortgages',
+  'Commercial and Industrial Loans',
+  'Auto Loans',
+  'Multifamily Residential Real Estate',
+  'Nonfarm Nonresidential',
+  'Construction and Development',
+  'Credit Cards'
+);

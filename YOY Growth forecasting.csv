@@ -1,0 +1,5 @@
+SELECT
+  Value AS Equity,
+  Value*1.2 AS Esimated_valutaion_pb
+FROM my-project-2-463200.financial_modeling.bank_financials_q1_2025
+WHERE name = 'Total Equity Capital';

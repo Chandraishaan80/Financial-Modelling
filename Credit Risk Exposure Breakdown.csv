@@ -1,0 +1,9 @@
+SELECT
+name AS risk_type,
+value/1000 AS value_in_bilions
+FROM `my-project-2-463200.financial_modeling.bank_financials_q1_2025`
+WHERE name IN (
+  'Loans and Leases 90 Days or More Past Due',
+  'Loans and Leases in Nonaccrual Status',
+  'Restructured and Current Loans and Leases'
+);
