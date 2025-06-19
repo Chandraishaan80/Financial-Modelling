@@ -110,17 +110,3 @@ You are free to use, modify, and share with attribution.
 
 > Developed for educational and professional CV use.
 
----
-
-### ✅ Recommended Folder Structure for GitHub
-
-```
-/financial-modeling-sql/
-├── README.md
-├── results- Financial modelling.xlsx
-├── Bank financial metrics.csv
-├── Loan Portfolio Breakdown.csv
-├── Credit Risk Exposure Breakdown.csv
-├── YOY Growth forecasting.csv
-├── Portfolio Optimisation.csv
-```
